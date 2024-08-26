@@ -1,6 +1,6 @@
 import os
 import eyed3  # type: ignore may or may not be avialalbe  pip first
-directory_path =  r"C:\Users\merse\Music\Music"
+directory_path =  r""
 
 def clear_mp3_metadata(file_path):
     audiofile = eyed3.load(file_path)
