@@ -26,4 +26,4 @@ def clear_metadata_in_directory(directory_path):
         print(f"Cleared metadata for {file}")
 
 
-# clear_metadata_in_directory(directory_path)
+clear_metadata_in_directory(directory_path)
