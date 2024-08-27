@@ -1,5 +1,3 @@
-const { text } = require("stream/consumers");
-
 const elements = document.querySelectorAll(
   '[id^="title"][class*="ytd-transcript-section-header-renderer"][aria-hidden="true"][tabindex="-1"]'
 );
