@@ -1,3 +1,6 @@
+const elements = document.querySelectorAll('[id^="title"][class*="ytd-transcript-section-header-renderer"][aria-hidden="true"][tabindex="-1"]');
+const texts = Array.from(elements).map(element => element.textContent.trim());
+
 function extractTextBetweenStringsFromElement(begin, end) {
     const selector = "#segments-container";
     const element = document.querySelector(selector);
@@ -25,7 +28,18 @@ function extractTextBetweenStringsFromElement(begin, end) {
     const extractedText = text.substring(startIndex + begin.length, endIndex);
     return extractedText.trim();
   }
+
+
+
+function getChatpter(chapterNumber){
+  if (chapterNumber >= 1) {
+    return extractTextBetweenStringsFromElement(texts[chapterNumber-1],texts[chapterNumber])
+  }
+  return "";
+}
   
+function copySub(chapterNumber) {
+
+  navigator.clipboard.writeText(getChatpter(chapterNumber))
   
-  
-  extractTextBetweenStringsFromElement("0:57:36","1:02:40")
+}
