@@ -1,0 +1,32 @@
+[
+    {
+        "text": "Avoid:",
+        "duration": 2,
+        "size": 72
+    },
+    {
+        "text": "Retention Issues with Videos and Notes:",
+        "duration": 2,
+        "size": 60
+    },
+    {
+        "text": "Mistake: Relying solely on videos and notes for retention. Issue: Leads to poor retention and understanding. Advice: Use active recall techniques and test yourself regularly.",
+        "duration": 7,
+        "size": 36
+    },
+    {
+        "text": "Ineffective Flashcards:",
+        "duration": 2,
+        "size": 60
+    },
+    {
+        "text": "Mistake: Overloading flashcards with trivial details. Issue: Reduces effectiveness. Advice: Use systems like Anki for better spaced repetition and knowledge consolidation.",
+        "duration": 7,
+        "size": 36
+    },
+    {
+        "text": "Delayed Coding Interview Practice:",
+        "duration": 2,
+        "size": 60
+    }
+]
