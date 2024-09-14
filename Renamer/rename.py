@@ -2,7 +2,7 @@ from greenShell import print_in_green as printG
 import os
 
 # Directory containing your files and folders
-directory =r"C:\Users\merse\OneDrive\Documents\Learn\Notes\GitHub\Level 1\\"
+directory =r"C:\Users\merse\OneDrive\Documents\Learn\Courses\2 - Engineering\2 - System Design\Systems Design"
 
 def list_files_in_directory(directory):
     if not os.path.isdir(directory):
