@@ -1,0 +1,69 @@
+.cont {
+  overflow: hidden;
+  height: 140vh;
+}
+.part-1,
+.part-2 {
+  float: left;
+  height: 100%;
+}
+.part-1 {
+  width: 30%;
+}
+.part-2 {
+  width: 70%;
+}
+.cls {
+  clear: both;
+}
+.pic img {
+  margin: 30px auto;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  display: block;
+}
+.social {
+  width: 40%;
+  overflow: hidden;
+  margin: auto;
+  margin: 30px auto;
+}
+.insta {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+.face {
+  float: right;
+  width: 50px;
+  height: 50px;
+}
+.part-1 .app {
+  display: block;
+  width: 70%;
+  background-color: blueviolet;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 10px 0px 15px transparent, -10px 0px 15px transparent;
+  transition: all 0.4s ease;
+}
+.part-1 .app:hover {
+  box-shadow: 10px 0px 15px blueviolet, -10px 0px 15px blueviolet;
+
+}
+h1 {
+  margin: 20px 0;
+}
+
+.dest ,li{
+  font-size: 18px;
+}
+.break {
+  margin: 15px 0px;
+}
+li{
+  margin-left:20px ;
+}

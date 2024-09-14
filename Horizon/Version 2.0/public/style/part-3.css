@@ -1,0 +1,67 @@
+body{
+  min-width: 700px;
+}
+.horizon {color: rgb(140, 40, 140);}
+.people {
+  margin: auto;
+  width: 90%;
+  overflow: hidden;
+}
+.people .image {
+  border-radius: 30px 30px 0 0;
+  transition: all ease-in 0.3s;
+  display: inline;
+  width: 20%;
+  margin: 2.5%;
+  float: left;
+  position: relative;
+  bottom: 0px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px transparent;
+}
+.people .image:hover {
+  bottom: 30px;
+  background-color: blueviolet;
+  box-shadow: 10px 15px 15px blueviolet, -10px 15px 15px blueviolet;
+}
+.image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cont {
+  padding: 15px 0px;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.cont .text,
+.cont a {
+  float: left;
+  font-weight: bold;
+}
+.cont .text {
+  width: 100%;
+}
+.cont a {
+  text-align: center;
+  padding: 10px 0px ;
+  width:100%;
+  background-color: purple;
+  text-align: center;
+  border-radius: 5px;
+}
+.cont .UN{
+  background-color: gray ;
+}
+center{
+  margin: 20px;
+  font-size: 2rem;
+}
+@media only screen and (min-width: 600px) {
+  .people .active {
+    display: block;
+    margin: auto;
+  }
+}

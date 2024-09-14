@@ -1,0 +1,85 @@
+.fwrp {
+  overflow: hidden;
+}
+
+.part-5-1,
+.part-5-2 {
+  float: left;
+  padding: 15vh 0;
+}
+.part-5-1 {
+  width: 45%;
+}
+.part-5-2 {
+  width: 55%;
+}
+
+.part-5-1-1 {
+  margin: auto;
+  height: 150px;
+  width: 280px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  color: #7f56d9;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.part-5-1-1 img {
+  display: block;
+  margin: 5% auto;
+}
+
+.part-5-2 .inp {
+  color: black;
+  margin: auto;
+  height: 530px;
+  width: 60%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.part-5-2 input,
+textarea,
+button,
+.state,
+.course,
+.gen {
+  color: black;
+  margin: 15px auto;
+  height: 30px;
+  width: 90%;
+  border: solid 2px rgba(0, 0, 0, 0.341);
+  display: block;
+  padding: 5px;
+}
+.part-5-2 textarea {
+  resize: none;
+  height: 100px;
+}
+.send,
+.we {
+  padding: 5px;
+  color: #6e7491;
+  margin: auto;
+  width: 90%;
+}
+option{
+  color: black;
+}
+.inp .send {
+  font-size: 20px;
+}
+.part-5-2 button {
+  color: white;
+  background-color: #7f56d9;
+  border: none;
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+  .part-5-1,
+  .part-5-2 {
+    width: 100%;
+    padding: 5vh 0;
+  }
+}

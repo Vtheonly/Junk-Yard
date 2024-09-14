@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;}
+.logo{margin-top: 20vh;}
+.logo svg path {
+  stroke-width: 50;
+  stroke: #000078;
+  stroke-dasharray: 4500;
+  stroke-dashoffset: 0;
+  animation: trans 2s linear forwards;
+  animation-iteration-count: infinite;}
+@keyframes trans {
+  0% {stroke-dashoffset: 0;}
+  40% {stroke-dashoffset: 4500;}
+  100% {stroke-dashoffset: 9000;}}
