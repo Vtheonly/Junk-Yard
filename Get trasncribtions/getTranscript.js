@@ -6,7 +6,7 @@
 
 // ## Overview
 // This script is designed to extract and copy specific chapters from a YouTube transcript based on the chapter number provided. It automates the process of copying these chapters into the clipboard, making it easy to paste the content into another tool like GPT.
-
+// this is totally unrelated to the python file ,it's just for cleaning the time span this one brings get them from the transcribe section and copies them to the clipboard  for further use (GPT summery mostly for me)
 // ## Key Functions
 
 // ### 1. **`extractTextBetweenStringsFromElement(begin, end)`**
