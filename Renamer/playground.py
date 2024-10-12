@@ -3,16 +3,19 @@ from rename import list_dirs_in_directory as ListD
 from rename import rename_folders
 from rename import rename_files
 
-directory =r"C:\Users\merse\OneDrive\Documents\Learn\Obsidian Notes\University\GL\1 - Use Case Diagram"
+directory =r"/home/mersel/Documents/Learn/Obsidian Notes/Programming languages/Java"
 # print(ListD(directory))
 
-old = ListF(directory)
 
-# print((old))
+old = ['Level 0 Baseics', 'Level 1 Library', 'Level 2 OOP', 'Level 4 JavaFX', 'Level 3 Maven Gradle']
+
+new = ['Level 0 - Baseics', 'Level 1 - Library', 'Level 2 - OOP', 'Level 4 - JavaFX', 'Level 3 - Maven Gradle']
 
 
 
+print((old))
 
-# rename_folders(old,new)
-rename_files(old,new)
 
+
+rename_folders(old,new)
+# rename_files(old,new)

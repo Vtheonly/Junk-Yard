@@ -13,6 +13,7 @@ def pdf_to_text(pdf_path):
 
 
 
+
 if __name__ == "__main__":
     pdf_path = "text_sample.pdf"  
     sentences = pdf_to_text(pdf_path)
