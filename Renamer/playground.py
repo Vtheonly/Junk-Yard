@@ -3,17 +3,21 @@ from rename import list_dirs_in_directory as ListD
 from rename import rename_folders
 from rename import rename_files
 
-directory =r"/home/mersel/Documents/Learn/Obsidian Notes/Programming languages/Java"
+directory =r"/home/mersel/Documents/Projects/Junk Yard/Intro"
 # print(ListD(directory))
 
 
-old = ['Level 0 Baseics', 'Level 1 Library', 'Level 2 OOP', 'Level 4 JavaFX', 'Level 3 Maven Gradle']
-
-new = ['Level 0 - Baseics', 'Level 1 - Library', 'Level 2 - OOP', 'Level 4 - JavaFX', 'Level 3 - Maven Gradle']
+old = (ListD(directory))
 
 
 
-print((old))
+
+# old = ['Level 0 Baseics', 'Level 1 Library', 'Level 2 OOP', 'Level 4 JavaFX', 'Level 3 Maven Gradle']
+
+new = ['Laravel', 'React ', 'Python', 'Django', 'Android Developemt', 'Electron', 'Flask', 'Machine Learning Models', 'Node.js', 'Firebase', 'Docker', 'PHP', 'Linux Scripting', 'JavaScript', 'JavaFX', 'SQL', 'C++', 'Express.js', 'java']
+
+
+# print((old))
 
 
 

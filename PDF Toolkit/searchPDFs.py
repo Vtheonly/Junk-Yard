@@ -1,12 +1,14 @@
-working_directory = '/home/mersel/Documents/Learn/University/Semestre 5/1 - Compilation'  # Update this with the correct directory
+working_directory = '/home/mersel/Documents/Learn/University/Semestre 5/6 - Systèmes d_Exploitation 2/Cours/Resume/Threads'  # Update this with the correct directory
 
 import subprocess
 from collections import defaultdict
 
 # Define keywords, working directory, and output files
-keywords = ['flex', 'lex', 'Flex', 'yacc']
+
+keywords = ['threads' , 'Threads','multithread','pthread','p_thread','paral' ]
+
 output_file = 'urls.txt'
-final_output_file = 'Out.txt'
+final_output_file = 'MipsOutput.txt'
 
 # Construct the pdfgrep command
 pdfgrep_command = ['pdfgrep', '-r'] + [f'-e {keyword}' for keyword in keywords]
@@ -28,7 +30,6 @@ occurrences = defaultdict(int)
 
 # Process each line from the output
 for line in lines:
-    # Extract the file path before the first ':'
     file_path = line.split(':', 1)[0]
     
     # Increase the count for each occurrence of the file
@@ -39,6 +40,7 @@ sorted_occurrences = sorted(occurrences.items(), key=lambda item: item[1], rever
 
 # Write the sorted file paths and their occurrences to Out.txt with indentation
 with open(final_output_file, 'w') as out:
+    out.write("Keywords : \t"+str(keywords) +"\n\n")
     for file_path, count in sorted_occurrences:
         out.write(f"{file_path}\n")  # Write the file path
         out.write(f"\t\tOccurrences: {count}\n")  # Write the occurrences with indentation

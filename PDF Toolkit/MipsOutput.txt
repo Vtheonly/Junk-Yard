@@ -1,0 +1,14 @@
+Keywords : 	['threads', 'Threads', 'multithread', 'pthread', 'p_thread', 'paral']
+
+./Cours/Cours - 1.pdf
+		Occurrences: 108
+./Cours/Cours - 3.pdf
+		Occurrences: 32
+./Series/USTHB - 3.pdf
+		Occurrences: 26
+./Series/UMBB - 1.pdf
+		Occurrences: 21
+./Series/UMBB - 5.pdf
+		Occurrences: 14
+./Cours/Cours - 2.pdf
+		Occurrences: 4
