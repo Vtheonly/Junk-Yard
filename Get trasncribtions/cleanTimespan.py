@@ -1,7 +1,7 @@
 import os
 import pyperclip
-input_file  = r"C:\Users\merse\OneDrive\Documents\Projects\Junk Yard\Get trasncribtions\subtitles.txt"
-output_file = r"C:\Users\merse\OneDrive\Documents\Projects\Junk Yard\Get trasncribtions\output.txt"
+input_file  = r"/home/mersel/Documents/Projects/Junk Yard/Get trasncribtions/subtitles.txt"
+output_file = r"/home/mersel/Documents/Projects/Junk Yard/Get trasncribtions/output.txt"
 
 
 def getPureText(mode="site"):
@@ -21,8 +21,18 @@ def getPureText(mode="site"):
                     big_text+= str(lines[i])[0:-1]+" " if i%2==0 else "" # delete the the /n
                 
                 lines.clear()
-                lines.append(big_text)        
+                lines.append(big_text)    
+                
+                    
+            elif(mode=="subsite"):
+                big_text+= str(lines).replace("""
+"""," ")    
 
+
+
+                lines.clear()
+                lines.append(big_text)    
+                
         with open(output_file, 'w') as outfile:
             outfile.writelines(" ".join(lines))
 
@@ -36,4 +46,4 @@ def getPureText(mode="site"):
         
 
 # getPureText(mode="js")
-# getPureText(mode="site")
+getPureText(mode="subsite")

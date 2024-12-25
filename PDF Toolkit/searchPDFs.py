@@ -1,11 +1,11 @@
-working_directory = '/home/mersel/Documents/Learn/University/Semestre 5/6 - Systèmes d_Exploitation 2/Cours/Resume/Threads'  # Update this with the correct directory
+working_directory = '/home/mersel/Documents/Learn/University/Semestre 5/1 - Compilation'  # Update this with the correct directory
 
 import subprocess
 from collections import defaultdict
 
 # Define keywords, working directory, and output files
 
-keywords = ['threads' , 'Threads','multithread','pthread','p_thread','paral' ]
+keywords = ['flex','lex','yacc','Flex','Lex']
 
 output_file = 'urls.txt'
 final_output_file = 'MipsOutput.txt'
